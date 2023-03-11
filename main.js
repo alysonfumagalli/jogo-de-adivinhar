@@ -10,8 +10,10 @@ guessButton.addEventListener('click', function(){
     numbersGuessed.innerHTML += guessedNumber + " / "
 
     if (guessedNumber == randomNumber) {
-        tryResult.innerHTML = "Você acertou!"
+        tryResult.innerHTML = "Parabéns! Você acertou! O número secreto era " + randomNumber + ".";
+    } else if (guessedNumber > randomNumber) {
+        tryResult.innerHTML = "Ops...Você errou. O número secreto é menor do que " + guessedNumber + ".";
     } else {
-        tryResult.innerHTML = "Você errou!"
+        tryResult.innerHTML = "Ops...Você errou. O número secreto é maior do que " + guessedNumber + ".";
     }
 })
