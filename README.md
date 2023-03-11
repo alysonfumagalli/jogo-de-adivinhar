@@ -9,12 +9,14 @@ Criei esse site para testar e praticar minhas habilidades com HTML, CSS, JavaScr
    - Jogador consegue escolher e enviar um número;
    - O site informa se o número chutado está correto ou não;
 
-- [ ] **Adicionar dicas para o jogador**
+- [x] **Adicionar dicas para o jogador**
    - Indicar se o número secreto é maior ou menor do que o chutado;
    
 - [x] **Exibir os números chutados no site**
 
-- [ ] **Adicionar e exibir um número fixo de tentativas**
+- [x] **Adicionar e exibir um número fixo de tentativas**
+
+- [ ] **Adicionar botão para jogar novamente**
 
 - [ ] **Adicionar estilo ao site**
 
