@@ -16,7 +16,11 @@ Criei esse site para testar e praticar minhas habilidades com HTML, CSS, JavaScr
 
 - [x] **Adicionar e exibir um número fixo de tentativas**
 
-- [ ] **Adicionar botão para jogar novamente**
+- [x] **Adicionar botão para jogar novamente**
+
+- [ ] **Adicionar outros modos de jogo**
+   - Número entre 1 e 100;
+   - Número entre 1 e 500;
 
 - [ ] **Adicionar estilo ao site**
 
