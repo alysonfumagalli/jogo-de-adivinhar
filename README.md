@@ -16,4 +16,6 @@ Criei esse site para testar e praticar minhas habilidades com HTML, CSS, JavaScr
 
 - [ ] **Adicionar e exibir um número fixo de tentativas**
 
+- [ ] **Adicionar estilo ao site**
+
 - [ ] **_Dark Mode_ para o site**
