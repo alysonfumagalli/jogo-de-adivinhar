@@ -5,14 +5,14 @@ Esse site contém um jogo bem simples de adivinhação no qual seu objetivo é t
 Criei esse site para testar e praticar minhas habilidades com HTML, CSS, JavaScript, Git e GitHub.
 
 ## Objetivos
-- [ ] **Fazer o projeto-base funcionar**
+- [x] **Fazer o projeto-base funcionar**
    - Jogador consegue escolher e enviar um número;
    - O site informa se o número chutado está correto ou não;
 
 - [ ] **Adicionar dicas para o jogador**
    - Indicar se o número secreto é maior ou menor do que o chutado;
    
-- [ ] **Exibir os números chutados no site**
+- [x] **Exibir os números chutados no site**
 
 - [ ] **Adicionar e exibir um número fixo de tentativas**
 
