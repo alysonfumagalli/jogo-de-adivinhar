@@ -10,7 +10,11 @@
     <h1>Jogo de Adivinhação</h1>
     <p>Olá! Neste site, você poderá jogar um jogo de adivinhação que consiste em tentar descobrir qual é o número secreto, entre 1 e 1000, gerado aleatoriamente.</p>
     <p>Insira no espaço abaixo um número e clique no botão.</p>
-    <input type="number" placeholder="Insira um número"><br>
-    <button>Chutar</button>
+    <input id="guessedNumber" type="text" placeholder="Insira um número"><br>
+    <button id="guessButton">Chutar</button>
+    <div id="tryResult"></div>
+    <div id="displayGuessedNumbers">Números chutados: </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
