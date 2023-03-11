@@ -7,7 +7,11 @@ guessButton.addEventListener('click', function(){
     let numbersGuessed = document.getElementById("displayGuessedNumbers");
     let tryResult = document.getElementById("tryResult");
 
-    numbersGuessed.innerHTML += guessedNumber + " / "
+    if (guessedNumber != randomNumber) {
+        numbersGuessed.innerHTML += guessedNumber + " / "
+    } else {
+        numbersGuessed.innerHTML += guessedNumber
+    }
 
     if (guessedNumber == randomNumber) {
         tryResult.innerHTML = "Parabéns! Você acertou! O número secreto era " + randomNumber + ".";
