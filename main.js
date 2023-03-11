@@ -3,11 +3,12 @@ var tries = 10;
 var guessButton = document.getElementById("guessButton");
 var playAgainButton = document.getElementById("playAgain");
 var triesLeft = document.getElementById("triesLeft");
-var guessedNumber = document.getElementById("guessedNumber").value;
 var numbersGuessed = document.getElementById("displayGuessedNumbers");
 var tryResult = document.getElementById("tryResult");
 
 guessButton.addEventListener('click', function(){
+    let guessedNumber = document.getElementById("guessedNumber").value;
+
     if (guessedNumber != randomNumber) {
         numbersGuessed.innerHTML += guessedNumber + " / "
     } else {
